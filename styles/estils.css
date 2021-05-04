@@ -1,0 +1,63 @@
+body {
+    text-align: center;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Fjalla One", sans-serif;
+}
+
+/**** CAPÇALERA ****/
+header {
+    background-color: #263238;
+    color: white;
+}
+header div {
+    text-align: right;
+}
+header img {
+    height: 50px;
+    padding: 10px;
+}
+header i {
+    color: white;
+    padding: 10px;
+}
+header i:hover {
+    color: lightgrey;
+}
+
+/**** MENÚ ****/
+nav .btn {
+    width: 95%;
+    margin: 10px;
+}
+
+/**** DESTACATS ****/
+#destacats div {
+    margin: 20px;
+    padding: auto;
+    background-color: grey;
+    border-radius: 3%;
+}
+
+/**** PRINCIPAL ****/
+#principal div {
+    margin: auto;
+    margin-bottom: 20px;
+    padding-top: 10px;
+}
+#principal img {
+    border: 3px solid black;
+    max-height: 400px;
+    margin: 20px;
+}
+.art {
+    background-color:lightsalmon;
+    padding: 20px;
+    border-radius: 1%;
+}
+
+/**** PEU ****/
+.col_white_amrc { color:#FFF;}
+footer { width:100%; background-color:#263238;  padding:20px;}
+footer p { font-size:13px; color:#CCC; padding-bottom:0px; margin-bottom:8px;}
+.bottom_border { border-bottom:1px solid #323f45; padding-bottom:20px;}
